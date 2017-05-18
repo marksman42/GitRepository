@@ -1,0 +1,21 @@
+.slide-control-bar{
+	height: 30px;
+	width: 100%;
+	z-index: -1;
+	position: absolute;
+	opacity: 0.9;
+}
+
+.slide-control-button{
+	display: inline-block;
+	margin: 10px;
+	opacity: 1;
+}
+
+.slide{
+	display: none;
+}
+
+.active-slide{
+	display: inline;
+}
